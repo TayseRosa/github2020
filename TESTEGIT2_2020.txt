@@ -4,10 +4,8 @@
 
 1º - git status
 2º - git add [nome do arquivo]
-3º - git commit -m "mensagem aqui.."
-4º - git status - NADA PARA SER FEITO, JA FOI COMMITADO!
-5º - git remote add origin [caminho do repositorio do git] 
-6º - git push -u origin master
+4º - git commit -m "mensagem aqui.."
+5º - git push -u origin master
 
 --- Anotações completas: --- 
  ======= Git ========
