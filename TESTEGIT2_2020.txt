@@ -1,9 +1,6 @@
 :: Curso de GIT/GITHUB 2020 ::
-Meu PRIMEIRO commit 2020
-Meu SEGUNDO commit 2020
-Meu TERCEIRO commit 2020 (passo a passo):
------------------
-Anotações Resumidas:
+
+--- Anotações Resumidas: --- 
 
 1º - git status
 2º - git add [nome do arquivo]
@@ -12,8 +9,7 @@ Anotações Resumidas:
 5º - git remote add origin [caminho do repositorio do git] 
 6º - git push -u origin master
 
-----------------
-Anotações completas:
+--- Anotações completas: --- 
  ======= Git ========
 1º - $ git config --global user.name "Tayse Rosa"
 2º - $ git config --global user.email "tayse_rosa@yahoo.com.br"
