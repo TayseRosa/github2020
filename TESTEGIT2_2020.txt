@@ -1,3 +1,99 @@
-Curso de GIT/GITHUB 2020
-Meu primeiro commit 2020
+:: Curso de GIT/GITHUB 2020 ::
+Meu PRIMEIRO commit 2020
 Meu SEGUNDO commit 2020
+Meu TERCEIRO commit 2020 (passo a passo):
+-----------------
+Anotações Resumidas:
+
+1º - git status
+2º - git add [nome do arquivo]
+3º - git commit -m "mensagem aqui.."
+4º - git status - NADA PARA SER FEITO, JA FOI COMMITADO!
+5º - git remote add origin [caminho do repositorio do git] 
+6º - git push -u origin master
+
+----------------
+Anotações completas:
+ ======= Git ========
+1º - $ git config --global user.name "Tayse Rosa"
+2º - $ git config --global user.email "tayse_rosa@yahoo.com.br"
+3º - git config --list
+::criar a pasta::
+mkdir [nome da pasta]
+
+::entrar na pasta::
+cd[nome da pasta]
+
+::inicializar o git nessa pasta::
+git init
+
+::lista o conteudo da pasta::
+$ ls -la
+
+::voltar pasta anterior ::
+cd..
+
+::editar o arquivo ::
+vi[nome do arquivo]
+I - para entrar no modo de inserção
+
+::sair do vi::
+esc :qa!
+
+::listar arquivos::
+ls
+
+------------------------
+
+::Como esta o repositorio no momento::
+git status
+
+git add [nome arquivo]
+
+git status -- ja pode ser commitado
+
+git commit -m "add primeiro arquivo"
+
+git status - NADA PARA SER FEITO, JA FOI COMMITADO!
+
+---------
+::ligar o repositorio remoto::
+git remote add origin [caminho do repositorio do git] 
+
+:: mostra que ja existe o repositorio origin ::
+git remote
+ou git remote -v
+
+::envia todas as modificações para o repositorio remoto::
+(vem do branch master e vai para o origin)
+
+::subir modificações ::
+git commit -m "mensagem"
+git push -u origin master
+
+---------
+
+git remote set-url origin github.com:TayseRosa/GIT-GITHUB.git
+
+git remote set-url origin git@github.com:TayseRosa/GIT-GITHUB.git
+
+----------
+Alternar URLs remotes de SSH para HTTPS
+Open Git Bash.
+
+Altere o diretório de trabalho atual referente ao seu projeto local.
+
+Liste seus remotes existentes para obter o nome do remote que deseja alterar.
+
+$ git remote -v
+> origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+> origin  git@github.com:USERNAME/REPOSITORY.git (push)
+Altere a URL do remote de SSH para HTTPS com o comando git remote set-url.
+
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+Verifique se o URL remote foi alterado.
+
+$ git remote -v
+# Verifica a nova URL do remote
+> origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+> origin  https://github.com/USERNAME/REPOSITORY.git (push)
