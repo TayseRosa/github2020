@@ -1,5 +1,3 @@
-:: Curso de GIT/GITHUB 2020 ::
-
 --- Novo repositorio: --- 
 Entrar na pasta:
 git init
