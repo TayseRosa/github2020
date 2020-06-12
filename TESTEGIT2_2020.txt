@@ -1,5 +1,18 @@
 :: Curso de GIT/GITHUB 2020 ::
 
+--- Novo repositorio: --- 
+Entrar na pasta:
+git init
+git add[nome do arquivo]
+git status -- ja pode ser commitado
+git commit -m "mensagem"
+git status - NADA PARA SER FEITO, JA FOI COMMITADO!
+git remote add origin [caminho do repositorio do git] 
+git remote ou git remote -v
+git commit -m "mensagem"
+git push -u origin master
+
+
 --- Anotações Resumidas: --- 
 
 1º - git status
