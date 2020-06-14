@@ -1,3 +1,9 @@
+--- Atualizar repositorio: --- 
+git add --all
+git commit -m "mensagem.."
+git push -u origin master
+
+
 --- Novo repositorio: --- 
 Entrar na pasta:
 git init
