@@ -16,6 +16,8 @@ git remote ou git remote -v
 git commit -m "mensagem"
 git push -u origin master
 
+--- Voltar versao --- 
+git reset --hard b878c52e34ecdf704cc97bd83a3a100391344d68
 
 --- Anotações Resumidas: --- 
 
